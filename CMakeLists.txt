@@ -25,6 +25,8 @@ IF (WIN32)
 ELSE (WIN32)
   IF (APPLE)
 #	LIST(APPEND LOG4CPP_CFLAGS -DLOG4CPP_HAVE_SSTREAM)
+  ELSE (APPLE)
+	LIST(APPEND LOG4CPP_CFLAGS -pthread)
   ENDIF (APPLE)
 ENDIF (WIN32)
 
@@ -48,6 +50,7 @@ ADD_LIBRARY ( ${LOG4CPP_LIBRARY_NAME} SHARED
   src/LayoutAppender.cpp
   src/FileAppender.cpp
   src/RollingFileAppender.cpp
+  src/GenerationalFileAppender.cpp
   src/FixedContextCategory.cpp
   src/IdsaAppender.cpp
   src/OstreamAppender.cpp
