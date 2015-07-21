@@ -1,3 +1,24 @@
+## log4cpp (indigo) - 2.8.1-0
+
+The packages in the `log4cpp` repository were released into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo log4cpp` on `Tue, 21 Jul 2015 11:45:08 -0000`
+
+The `log4cpp` package was released.
+
+Version of package(s) in repository `log4cpp`:
+- upstream repository: https://github.com/orocos-toolchain/log4cpp.git
+- release repository: https://github.com/orocos-gbp/log4cpp-release.git
+- rosdistro version: `2.8.0-0`
+- old version: `2.8.0-0`
+- new version: `2.8.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## log4cpp (indigo) - 2.8.0-0
 
 The packages in the `log4cpp` repository were released into the `indigo` distro by running `/usr/bin/bloom-release log4cpp --track indigo -e -r indigo` on `Wed, 21 Jan 2015 18:40:07 -0000`
