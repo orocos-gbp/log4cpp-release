@@ -1,0 +1,12 @@
+Source: ros-jade-log4cpp
+Section: misc
+Priority: extra
+Maintainer: Orocos Developers <orocos-dev@lists.mech.kuleuven.be>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: http://log4cpp.sourceforge.net/
+Standards-Version: 3.9.2
+
+Package: ros-jade-log4cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-catkin
+Description: Log4cpp maintained by Orocos developers This version of log4cpp deviates from the official release by adding custom category factories. Orocos requires this for setting up real-time logging.
