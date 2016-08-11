@@ -1,3 +1,26 @@
+## log4cpp (jade) - 2.8.3-0
+
+The packages in the `log4cpp` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade log4cpp --edit` on `Thu, 11 Aug 2016 13:30:22 -0000`
+
+The `log4cpp` package was released.
+
+Version of package(s) in repository `log4cpp`:
+
+- upstream repository: https://github.com/orocos-toolchain/log4cpp.git
+- release repository: https://github.com/orocos-gbp/log4cpp-release.git
+- rosdistro version: `2.8.1-0`
+- old version: `2.8.1-0`
+- new version: `2.8.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## log4cpp (indigo) - 2.8.3-0
 
 The packages in the `log4cpp` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo log4cpp --edit` on `Thu, 11 Aug 2016 12:06:36 -0000`
