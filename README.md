@@ -1,3 +1,26 @@
+## log4cpp (kinetic) - 2.9.0-0
+
+The packages in the `log4cpp` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic --edit log4cpp` on `Fri, 28 Apr 2017 12:39:07 -0000`
+
+The `log4cpp` package was released.
+
+Version of package(s) in repository `log4cpp`:
+
+- upstream repository: https://github.com/orocos-toolchain/log4cpp.git
+- release repository: https://github.com/orocos-gbp/log4cpp-release.git
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.9.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## log4cpp (jade) - 2.8.3-0
 
 The packages in the `log4cpp` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade log4cpp --edit` on `Thu, 11 Aug 2016 13:30:22 -0000`
