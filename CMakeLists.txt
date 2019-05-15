@@ -88,7 +88,7 @@ IF (WIN32)
 #  SET_TARGET_PROPERTIES(${LOG4CPP_LIBRARY_NAME} PROPERTIES LINK_FLAGS /NODEFAULTLIB:msvcrt)
 ENDIF (WIN32)
 
-SET(VERSION "2.9.0")
+SET(VERSION "2.9.1")
 SET(SOVERSION "2.9")
 SET_TARGET_PROPERTIES(${LOG4CPP_LIBRARY_NAME} PROPERTIES VERSION ${VERSION} SOVERSION ${SOVERSION})
 
@@ -178,3 +178,9 @@ IF ( DOXYGEN_EXECUTABLE )
   CONFIGURE_FILE(doc/Doxyfile.in Doxyfile @ONLY)
   ADD_CUSTOM_TARGET(docs ${DOXYGEN_EXECUTABLE} "Doxyfile")
 ENDIF ( DOXYGEN_EXECUTABLE )
+
+###########################################################
+# TESTS
+###########################################################
+
+add_subdirectory(tests)
