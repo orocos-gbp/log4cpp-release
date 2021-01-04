@@ -1,0 +1,13 @@
+Source: ros-noetic-log4cpp
+Section: misc
+Priority: optional
+Maintainer: Orocos Developers <orocos-dev@orocos.org>
+Build-Depends: debhelper (>= 9.0.0), cmake
+Homepage: http://log4cpp.sourceforge.net/
+Standards-Version: 3.9.2
+
+Package: ros-noetic-log4cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: Log4cpp maintained by Orocos developers This version of log4cpp deviates from the official release by adding custom category factories.
+ Orocos requires this for setting up real-time logging.
