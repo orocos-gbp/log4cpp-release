@@ -1,3 +1,26 @@
+## log4cpp (noetic) - 2.10.0-2
+
+The packages in the `log4cpp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic log4cpp` on `Mon, 04 Jan 2021 11:26:53 -0000`
+
+The `log4cpp` package was released.
+
+Version of package(s) in repository `log4cpp`:
+
+- upstream repository: https://github.com/orocos-toolchain/log4cpp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.10.0-1`
+- new version: `2.10.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## log4cpp (noetic) - 2.10.0-1
 
 The packages in the `log4cpp` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic log4cpp` on `Mon, 04 Jan 2021 11:18:42 -0000`
